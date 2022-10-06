@@ -3,18 +3,14 @@ import { THEME } from '../../theme';
 
 export const styles = StyleSheet.create({
     container: {
-        flex: 1,
+        marginLeft: 8,
+        height: 250,
+
     },
     cover: {
-        height: 75,
-        width: 75,
+        height: 188,
+        width: 120,
+        borderRadius: 4,
     },
-    text: {
-        color: THEME.COLORS.WHITE,
-        fontFamily: THEME.FONT_FAMILY.REGULAR,
-        fontSize: THEME.FONT_SIZE.SM,
-        alignItems: 'center',
-        justifyContent: 'center',
-        alignSelf: 'center',
-    }
+
 });

@@ -1,29 +1,26 @@
 import React from 'react';
-import { TouchableOpacity, ImageBackground, Text, TouchableOpacityProps, ImageSourcePropType } from 'react-native';
+import { TouchableOpacity, Image, Text, TouchableOpacityProps, ImageSourcePropType } from 'react-native';
 
 import { styles } from './styles';
 
-interface MrofileCardProps {
+interface MovieCardProps {
     name: string;
     cover: ImageSourcePropType;
 }
 
 interface Props extends TouchableOpacityProps {
-    data: MrofileCardProps;
+    data: MovieCardProps;
 }
 
 
-export function ProfileCard({ data, ...rest}: Props) {
+export function MovieCard({ data, ...rest }: Props) {
     return (
         <TouchableOpacity style={styles.container} {...rest}>
-            <ImageBackground
+            <Image
                 style={styles.cover}
-                source={data.cover}>
+                source={data.cover}
+            />
 
-            </ImageBackground>
-            <Text style={styles.text}>
-                {data.name}
-            </Text>
         </TouchableOpacity>
     );
 }
