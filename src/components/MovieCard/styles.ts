@@ -4,7 +4,8 @@ import { THEME } from '../../theme';
 export const styles = StyleSheet.create({
     container: {
         marginLeft: 8,
-        height: 250,
+        height: 195,
+        backgroundColor: THEME.COLORS.BLACK,
 
     },
     cover: {

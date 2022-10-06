@@ -4,6 +4,7 @@ import { THEME } from '../../theme';
 export const styles = StyleSheet.create({
     container: {
         flex: 1,
+        backgroundColor: THEME.COLORS.BLACK,
 
     },
     card: {
@@ -18,7 +19,7 @@ export const styles = StyleSheet.create({
 
     },
     view1: {
-
+        backgroundColor: THEME.COLORS.BLACK,
     },
     text: {
         fontSize: THEME.FONT_SIZE.MD,
@@ -27,8 +28,8 @@ export const styles = StyleSheet.create({
         marginLeft: 8,
     },
     view2: {
-        flex: 1,
         flexDirection: 'row',
+        backgroundColor: THEME.COLORS.BLACK,
     },
 
 

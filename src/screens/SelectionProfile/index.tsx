@@ -6,8 +6,15 @@ import { styles } from './styles';
 import logoNetflix from '../../assets/logonetflix.png';
 import { ProfileCard } from '../../components/ProfileCard';
 import { PROFILE } from '../../utils/profile'
+import { useNavigation } from '@react-navigation/native'
 
 export function SelectionProfile() {
+    const navigation = useNavigation();
+
+    function openHome() {
+        navigation.navigate('Home');
+    }
+
     return (
         <View style={styles.container}>
             <View
@@ -24,16 +31,14 @@ export function SelectionProfile() {
                 <View style={styles.profiles}>
                     <ProfileCard
                         data={PROFILE[0]}
+                        onPress={openHome}
                     />
-                    <ProfileCard
-                        data={PROFILE[1]}
-                    />
-                </View>
-                <View style={styles.profile}>
                     <ProfileCard
                         data={PROFILE[2]}
+                        onPress={openHome}
                     />
                 </View>
+
             </View>
         </View >
 
