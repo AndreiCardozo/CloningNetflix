@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, ImageBackground, View, Text, FlatList, ScrollView } from 'react-native';
+import { Image, ImageBackground, TouchableOpacity, View, Text, FlatList } from 'react-native';
 
 import { styles } from './styles';
 
@@ -9,12 +9,12 @@ import { Headerhomepage } from '../../components/Headerhomepage';
 import { Titles } from '../../components/Titles';
 import { Buttons } from '../../components/Buttons';
 import { MovieCard } from '../../components/MovieCard';
+import { ProfileCard } from '../../components/ProfileCard';
 import { MOVIE } from '../../utils/movie';
 
-export function Home() {
+export function Novidades() {
     return (
-        <ScrollView style={styles.container}>
-
+        <View style={styles.container}>
             <View style={styles.card}>
                 <ImageBackground style={styles.imageBackground} source={Background}>
                     <Headerhomepage />
@@ -23,7 +23,7 @@ export function Home() {
                 </ImageBackground>
             </View>
             <View style={styles.view1}>
-                <Text style={styles.text}>LGTB</Text>
+                <Text style={styles.text}>Novidades</Text>
                 <View style={styles.view2}>
                     <MovieCard data={MOVIE[1]} />
                     <MovieCard data={MOVIE[2]} />
@@ -52,7 +52,6 @@ export function Home() {
                 </View>
 
             </View>
-
-        </ScrollView>
+        </View >
     );
 }

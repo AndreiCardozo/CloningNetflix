@@ -6,6 +6,7 @@ export const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
+        backgroundColor: THEME.COLORS.BLACK,
     },
     logo: {
         width: 86,

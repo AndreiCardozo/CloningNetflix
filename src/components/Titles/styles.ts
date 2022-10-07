@@ -3,7 +3,7 @@ import { THEME } from '../../theme';
 
 export const styles = StyleSheet.create({
     container: {
-        marginTop: 24,
+        marginBottom: 350,
         marginLeft: 40,
         marginRight: 40,
         height: 32,

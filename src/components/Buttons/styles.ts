@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
         marginLeft: 42,
         marginRight: 42,
         justifyContent: 'space-between',
-        alignItems: 'flex-end',
+        marginBottom: 42,
     },
     imageMyList: {
         width: 40,

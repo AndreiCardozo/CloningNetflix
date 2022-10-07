@@ -22,15 +22,16 @@ export default function App() {
     Inter_900Black
   });
 
+  if (!fontsLoaded) {
+    return <LoadingScreen />;
+  }
+
   return (
     <View style={{
       flex: 1,
-      backgroundColor: THEME.COLORS.BLACK,
     }}>
-      <StatusBar
-        backgroundColor={THEME.COLORS.BLACK}
-      />
-      {fontsLoaded ? <Routes /> : <LoadingScreen />}
+
+      <Routes />
     </View>
   );
 }
