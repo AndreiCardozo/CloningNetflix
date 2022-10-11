@@ -7,29 +7,21 @@ export const styles = StyleSheet.create({
         backgroundColor: THEME.COLORS.BLACK,
 
     },
-    card: {
+    header: {
+        height: 250,
         width: '100%',
-        height: 538,
     },
-    imageBackground: {
-        width: '100%',
-        height: '100%',
-    },
-    buttons: {
+    body: {
+        justifyContent: 'center',
+        alignItems: 'center',
 
-    },
-    view1: {
-        backgroundColor: THEME.COLORS.BLACK,
     },
     text: {
         fontSize: THEME.FONT_SIZE.MD,
         fontFamily: THEME.FONT_FAMILY.REGULAR,
         color: THEME.COLORS.WHITE,
         marginLeft: 8,
-    },
-    view2: {
-        flexDirection: 'row',
-        backgroundColor: THEME.COLORS.BLACK,
+
     },
 
 

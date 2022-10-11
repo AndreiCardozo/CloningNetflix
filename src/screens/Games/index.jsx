@@ -3,23 +3,17 @@ import { Image, ImageBackground, TouchableOpacity, View, Text, FlatList } from '
 
 import { styles } from './styles';
 
-import Background from '../../assets/background.png';
-
 import { Headerhomepage } from '../../components/Headerhomepage';
-import { Titles } from '../../components/Titles';
-import { Buttons } from '../../components/Buttons';
 
 export function Games() {
     return (
         <View style={styles.container}>
-            <View style={styles.card}>
-                <ImageBackground style={styles.imageBackground} source={Background}>
-                    <Headerhomepage />
-                    <Titles />
-                    <Buttons styles={styles.buttons} />
-                </ImageBackground>
+            <View style={styles.header}>
+                <Headerhomepage />
             </View>
-
+            <View style={styles.body}>
+                <Text style={styles.text}>Games</Text>
+            </View>
         </View >
     );
 }

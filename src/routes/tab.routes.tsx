@@ -7,7 +7,7 @@ const { Screen, Navigator } = createBottomTabNavigator();
 
 import { Home } from '../screens/Home';
 import { Games } from '../screens/Games';
-import { Novidades } from '../screens/Novidades';
+import { Search } from '../screens/Search';
 import { RisadasRapidas } from '../screens/RisadasRapidas';
 import { Downloads } from '../screens/Downloads';
 import { THEME } from '../theme';
@@ -78,7 +78,7 @@ export function TabRoutes() {
             />
             <Screen
                 name='Search'
-                component={Novidades}
+                component={Search}
                 options={{
                     tabBarLabel: 'Search',
                     tabBarIcon: ({ size, color }) => (
