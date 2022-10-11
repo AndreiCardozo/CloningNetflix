@@ -8,6 +8,8 @@ export const styles = StyleSheet.create({
     cover: {
         height: 75,
         width: 75,
+        borderRadius: 8,
+
     },
     text: {
         color: THEME.COLORS.WHITE,

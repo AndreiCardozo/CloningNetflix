@@ -13,17 +13,9 @@ import { useNavigation } from '@react-navigation/native';
 export function Headerhomepage() {
     const navigation = useNavigation();
 
-    function BackSelectionProfile() {
-        navigation.navigate('SelectionProfile');
-    }
-    function BackHomePage() {
-        navigation.navigate('Home');
-    }
     return (
         <View style={styles.container}>
-            <TouchableOpacity
-                onPress={BackHomePage}
-            >
+            <TouchableOpacity>
                 <Image
                     style={styles.netflix}
                     source={Netflix} />
@@ -31,7 +23,7 @@ export function Headerhomepage() {
             <View style={styles.view1}>
                 <Image style={styles.vector} source={Vector} />
                 <TouchableOpacity
-                    onPress={BackSelectionProfile}
+                    onPress={navigation.goBack}
                 >
                     <Image
                         style={styles.profile}

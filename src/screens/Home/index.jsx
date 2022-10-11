@@ -8,10 +8,11 @@ import Background from '../../assets/background.png';
 import { Headerhomepage } from '../../components/Headerhomepage';
 import { Titles } from '../../components/Titles';
 import { Buttons } from '../../components/Buttons';
-import { MovieCard } from '../../components/MovieCard';
-import { MOVIE, movieList } from '../../utils/movie';
+import { MovieCard2 } from '../../components/MovieCard2';
+import { movieList } from '../../utils/movieList';
 
 export function Home() {
+
 
     return (
         <ScrollView style={styles.container}>
@@ -23,38 +24,17 @@ export function Home() {
                 </ImageBackground>
             </View>
             <View style={styles.view1}>
-                <Text style={styles.text}>FlatList</Text>
-                <View style={styles.view1}>
-                    <Text style={styles.text}>Novidades</Text>
-                    <View style={styles.view2}>
-                        <MovieCard data={MOVIE[1]} />
-                        <MovieCard data={MOVIE[2]} />
-                        <MovieCard data={MOVIE[0]} />
-                        <MovieCard data={MOVIE[0]} />
-                    </View>
-                </View>
-                <View style={styles.view1}>
-                    <Text style={styles.text}>Aventura</Text>
-                    <View style={styles.view2}>
-                        <MovieCard data={MOVIE[2]} />
-                        <MovieCard data={MOVIE[1]} />
-                        <MovieCard data={MOVIE[1]} />
-                        <MovieCard data={MOVIE[0]} />
-                    </View>
-
-                </View>
-                <View style={styles.view1} >
-                    <Text style={styles.text}>Ação</Text>
-
-                    <View style={styles.view2}>
-                        <MovieCard data={MOVIE[0]} />
-                        <MovieCard data={MOVIE[1]} />
-                        <MovieCard data={MOVIE[2]} />
-                        <MovieCard data={MOVIE[2]} />
-                    </View>
-
-                </View>
+                <Text style={styles.text}>
+                    FlatList</Text>
+                <FlatList
+                    keyExtractor={item => item.image}
+                    data={movieList}
+                    renderItem={({ item }) => <MovieCard2 {...item} />}
+                    horizontal={true}
+                />
             </View>
-        </ScrollView>
+           
+
+        </ScrollView >
     );
 }

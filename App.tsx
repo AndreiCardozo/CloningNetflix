@@ -13,6 +13,7 @@ import {
 import { THEME } from './src/theme';
 import { Home } from './src/screens/Home';
 import { Routes } from './src/routes'
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -27,9 +28,11 @@ export default function App() {
   }
 
   return (
-    <View style={{
-      flex: 1,
-    }}>
+    <View
+      style={{
+        flex: 1,
+      }}>
+      <StatusBar style="light" />
 
       <Routes />
     </View>

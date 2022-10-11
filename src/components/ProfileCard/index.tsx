@@ -13,13 +13,12 @@ interface Props extends TouchableOpacityProps {
 }
 
 
-export function ProfileCard({ data, ...rest}: Props) {
+export function ProfileCard({ data, ...rest }: Props) {
     return (
         <TouchableOpacity style={styles.container} {...rest}>
             <ImageBackground
                 style={styles.cover}
                 source={data.cover}>
-
             </ImageBackground>
             <Text style={styles.text}>
                 {data.name}

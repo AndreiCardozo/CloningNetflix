@@ -31,6 +31,8 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
         backgroundColor: THEME.COLORS.BLACK,
     },
-
+    list: {
+        width: "100%"
+    }
 
 });

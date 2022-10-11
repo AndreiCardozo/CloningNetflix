@@ -8,9 +8,7 @@ import Background from '../../assets/background.png';
 import { Headerhomepage } from '../../components/Headerhomepage';
 import { Titles } from '../../components/Titles';
 import { Buttons } from '../../components/Buttons';
-import { MovieCard } from '../../components/MovieCard';
-import { ProfileCard } from '../../components/ProfileCard';
-import { MOVIE } from '../../utils/movie';
+
 
 export function Novidades() {
     return (
@@ -22,7 +20,7 @@ export function Novidades() {
                     <Buttons styles={styles.buttons} />
                 </ImageBackground>
             </View>
-            
+
         </View >
     );
 }

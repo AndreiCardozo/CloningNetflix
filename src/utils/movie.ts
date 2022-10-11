@@ -11,4 +11,5 @@ export const MOVIE = [
         name: 'Hustle',
         cover: require('../assets/movies/hustle.png')
     },
+    
 ];
