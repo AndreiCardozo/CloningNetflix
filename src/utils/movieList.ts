@@ -19,16 +19,4 @@ export const movieList: Movie[] = [
         name: 'Hustle',
         image: require('../assets/movies/hustle.png')
     },
-    {
-        name: 'Hustle',
-        image: require('../assets/movies/hustle.png')
-    },
-    {
-        name: 'Hustle',
-        image: require('../assets/movies/hustle.png')
-    },
-    {
-        name: 'Hustle',
-        image: require('../assets/movies/hustle.png')
-    },
 ];
