@@ -1,6 +1,6 @@
 import { Image, View, } from 'react-native';
 
-import { Movie } from "../../utils/movieList";
+import { Movie } from "../../utils/emAltaList";
 
 import { styles } from './styles';
 

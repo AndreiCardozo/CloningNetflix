@@ -9,8 +9,8 @@ export const styles = StyleSheet.create({
 
     },
     cover: {
-        height: 188,
-        width: 120,
+        height: 152,
+        width: 108,
         borderRadius: 4,
     },
 

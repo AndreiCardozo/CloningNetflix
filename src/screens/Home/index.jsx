@@ -9,7 +9,9 @@ import { Headerhomepage } from '../../components/Headerhomepage';
 import { Titles } from '../../components/Titles';
 import { Buttons } from '../../components/Buttons';
 import { MovieCard2 } from '../../components/MovieCard2';
-import { movieList } from '../../utils/movieList';
+import { emAltaList } from '../../utils/emAltaList';
+import { recomendadoList } from '../../utils/recomendadoList';
+import { novidades } from '../../utils/novidades';
 
 export function Home() {
 
@@ -25,15 +27,35 @@ export function Home() {
             </View>
             <View style={styles.view1}>
                 <Text style={styles.text}>
-                    FlatList</Text>
+                    Em Alta</Text>
                 <FlatList
                     keyExtractor={item => item.image}
-                    data={movieList}
+                    data={emAltaList}
                     renderItem={({ item }) => <MovieCard2 {...item} />}
                     horizontal={true}
                 />
             </View>
-           
+            <View style={styles.view1}>
+                <Text style={styles.text}>
+                    Recomendados</Text>
+                <FlatList
+                    keyExtractor={item => item.image}
+                    data={recomendadoList}
+                    renderItem={({ item }) => <MovieCard2 {...item} />}
+                    horizontal={true}
+                />
+            </View>
+            <View style={styles.view1}>
+                <Text style={styles.text}>
+                    Novidades</Text>
+                <FlatList
+                    keyExtractor={item => item.image}
+                    data={novidades}
+                    renderItem={({ item }) => <MovieCard2 {...item} />}
+                    horizontal={true}
+                />
+            </View>
+
 
         </ScrollView >
     );
