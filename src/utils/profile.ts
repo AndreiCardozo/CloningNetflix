@@ -4,7 +4,7 @@ export const PROFILE = [
         cover: require('../assets/profile/profile1lg.png')
     },
     {
-        name: 'João',
+        name: 'Matheus',
         cover: require('../assets/profile/profile3.png')
     },
     {

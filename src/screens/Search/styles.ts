@@ -7,30 +7,25 @@ export const styles = StyleSheet.create({
         backgroundColor: THEME.COLORS.BLACK,
 
     },
-    card: {
-        width: '100%',
-        height: 538,
+    header: {
+        height: 40,
     },
-    imageBackground: {
-        width: '100%',
-        height: '100%',
+    view: {
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        backgroundColor: THEME.COLORS.GREY_400,
     },
-    buttons: {
-
-    },
-    view1: {
-        backgroundColor: THEME.COLORS.BLACK,
+    image: {
+        marginLeft: 16,
+        width: 130,
+        height: 80,
+        borderRadius: 4,
+        marginTop: 16,
     },
     text: {
-        fontSize: THEME.FONT_SIZE.MD,
-        fontFamily: THEME.FONT_FAMILY.REGULAR,
+        marginLeft: 16,
         color: THEME.COLORS.WHITE,
-        marginLeft: 8,
-    },
-    view2: {
-        flexDirection: 'row',
-        backgroundColor: THEME.COLORS.BLACK,
-    },
-
+        fontSize: THEME.FONT_SIZE.MD,
+    }
 
 });

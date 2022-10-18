@@ -1,5 +1,5 @@
 import React from 'react';
-import {ImageBackground, View, Text, FlatList, ScrollView } from 'react-native';
+import { ImageBackground, View, Text, FlatList, ScrollView } from 'react-native';
 
 import { styles } from './styles';
 
@@ -33,6 +33,7 @@ export function Home() {
                     data={emAltaList}
                     renderItem={({ item }) => <MovieCard2 {...item} />}
                     horizontal={true}
+                    showsHorizontalScrollIndicator={false}
                 />
             </View>
             <View style={styles.view1}>
@@ -43,6 +44,7 @@ export function Home() {
                     data={recomendadoList}
                     renderItem={({ item }) => <MovieCard2 {...item} />}
                     horizontal={true}
+                    showsHorizontalScrollIndicator={false}
                 />
             </View>
             <View style={styles.view1}>
@@ -53,6 +55,7 @@ export function Home() {
                     data={novidades}
                     renderItem={({ item }) => <MovieCard2 {...item} />}
                     horizontal={true}
+                    showsHorizontalScrollIndicator={false}
                 />
             </View>
 

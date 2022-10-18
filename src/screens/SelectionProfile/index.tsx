@@ -22,8 +22,7 @@ export function SelectionProfile() {
                 <Image source={logoNetflix} style={styles.logo} />
             </View>
 
-            <View
-                style={styles.body} >
+            <View style={styles.body} >
                 <View style={styles.textView}>
                     <Text style={styles.text}>Quem está assistindo</Text>
                 </View>

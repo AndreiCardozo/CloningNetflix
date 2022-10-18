@@ -1,6 +1,6 @@
-import { StyleSheet, Text, View, StatusBar } from 'react-native';
+import { View, StatusBar } from 'react-native';
 import { LoadingScreen } from './src/screens/LoadingScreen';
-import { SelectionProfile } from './src/screens/SelectionProfile';
+
 
 import {
   useFonts,
@@ -10,10 +10,7 @@ import {
   Inter_900Black
 } from '@expo-google-fonts/inter';
 
-import { THEME } from './src/theme';
-import { Home } from './src/screens/Home';
 import { Routes } from './src/routes'
-import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
