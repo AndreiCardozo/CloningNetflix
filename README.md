@@ -23,7 +23,7 @@ As técnicas e tecnologias utilizadas no site foram:
 
 ## Design da aplicação
 <p align="center">
-  <img src="https://imgur.com/Nfd7YZ1"/>
+  ![SCUEM9g - Imgur](https://user-images.githubusercontent.com/67652151/196811625-c384ed07-3cbf-44f4-8a8d-321a3304530a.png)
   <img src="https://imgur.com/SCUEM9g"/>
 </p>
 
