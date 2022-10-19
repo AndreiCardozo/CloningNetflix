@@ -42,7 +42,7 @@ Para rodar estas aplicações será necessário, primeiramente a instalação do
 npm install
 ```
 
-Em seguida utiliza o comando para rodar a aplicação:
+Em seguida utilizar o comando para rodar a aplicação:
 
 ```bash
 expo start 
