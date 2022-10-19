@@ -33,6 +33,10 @@ export function SelectionProfile() {
                         onPress={openHome}
                     />
                     <ProfileCard
+                        data={PROFILE[1]}
+                        onPress={openHome}
+                    />
+                    <ProfileCard
                         data={PROFILE[2]}
                         onPress={openHome}
                     />

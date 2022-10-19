@@ -11,7 +11,12 @@ import { Headerhomepage } from '../../components/Headerhomepage';
 export function Downloads() {
     return (
         <View style={styles.container}>
-            <Headerhomepage />
+            <View style={styles.header}>
+                <Headerhomepage />
+            </View>
+            <View style={styles.body}>
+                <Text style={styles.text}>Downloads</Text>
+            </View>
         </View >
     );
 }
