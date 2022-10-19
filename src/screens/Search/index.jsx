@@ -22,7 +22,9 @@ export function Search() {
                     underlineColorAndroid='transparent'
                 />
             </View>
-            <ScrollView>
+            <ScrollView
+                showsHorizontalScrollIndicator={false}
+            >
                 <View style={styles.view2}>
                     <Image style={styles.image} source={require('../../assets/movies/cards/arremessofinal.jpg')} />
                     <Text style={styles.text}>Arremesso Final</Text>

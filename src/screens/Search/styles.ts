@@ -26,7 +26,7 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
     },
     icon: {
-        paddingTop: 13,
+        paddingTop: 10,
         backgroundColor: THEME.COLORS.GREY_500,
         marginTop: 10,
         marginLeft: 16,
