@@ -54,14 +54,14 @@ expo start
     <td align="center">
       <a href="https://github.com/AndreiCardozo">
         <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/67652151?v=4" width="100px;" alt=""/><br/><sub><b>Andrei Cardozo</b></sub>
-      </a> <br/>
+      </a>
       <a href="https://github.com/AndreiCardozo" title="Andrei Cardozo"></a>
         <a href="https://github.com/AndreiCardozo">
         <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/67652151?v=4" width="100px;" alt=""/><br/><sub><b>Andrei Cardozo</b></sub>
-      </a> <br/>
+      </a>
       <a href="https://github.com/AndreiCardozo" title="Andrei Cardozo"></a>
         <a href="https://github.com/AndreiCardozo">
         <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/67652151?v=4" width="100px;" alt=""/><br/><sub><b>Andrei Cardozo</b></sub>
-      </a> <br/>
+      </a> 
       <a href="https://github.com/AndreiCardozo" title="Andrei Cardozo"></a>
     </td>
