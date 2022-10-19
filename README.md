@@ -57,10 +57,10 @@ expo start
       <a href="https://github.com/AndreiCardozo" title="Andrei Cardozo"></a>
     </td>
       <td align="center">
-      <a href="https://github.com/AndreiCardozo">
-        <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/67652151?v=4" width="100px;" alt=""/><br/><sub><b>Andrei Cardozo</b></sub>
+      <a href="https://github.com/ThiagoCotta">
+        <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/67484738?v=4" width="100px;" alt=""/><br/><sub><b>Thiago Cotta</b></sub>
       </a> <br/>
-      <a href="https://github.com/AndreiCardozo" title="Andrei Cardozo"></a>
+      <a href="https://github.com/ThiagoCotta" title="Thiago Cotta"></a>
     </td>
       <td align="center">
       <a href="https://github.com/AndreiCardozo">
