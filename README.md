@@ -66,9 +66,9 @@ expo start
       <a href="https://github.com/ThiagoCotta" title="Thiago Cotta"></a>
     </td>
       <td align="center">
-      <a href="https://github.com/MatheusReis">
-        <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/7760865?v=4" width="100px;" alt=""/><br/><sub><b>Matheus Reis</b></sub>
+      <a href="https://github.com/Leetzplay">
+        <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/62624789?v=4" width="100px;" alt=""/><br/><sub><b>Matheus Reis</b></sub>
       </a> <br/>
-      <a href="https://github.com/MatheusReis" title="Matheus Reis"></a>
+      <a href="https://github.com/Leetzplay" title="Matheus Reis"></a>
     </td>
 </table>
