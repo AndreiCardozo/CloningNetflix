@@ -18,6 +18,12 @@ As técnicas e tecnologias utilizadas no site foram:
 - `Expo`;
 - `React Native`;
 
+## ✏️ Funcionalidades
+- [X] Navegação entre telas (Stack Navigator e Bottom Tabs)
+- [X] Listagem de Filmes em uma FlatList
+- [X] Componentização 
+- [X] Interface da tela Home e Search da NetFlix
+- [X] Loading Screen quando as fontes estão carregando.
 
 
 
