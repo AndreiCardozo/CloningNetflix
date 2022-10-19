@@ -31,6 +31,7 @@ As técnicas e tecnologias utilizadas no site foram:
 <p align="center">
    <img src="https://user-images.githubusercontent.com/67652151/196811625-c384ed07-3cbf-44f4-8a8d-321a3304530a.png"/>
   <img src="https://user-images.githubusercontent.com/67652151/196811953-55871fd2-2568-4ac5-9cef-841795d33cc1.png"/>
+  <img src="https://user-images.githubusercontent.com/67652151/196812815-7f8c1323-30f2-4ccf-92da-ab745430a589.png"></>
  
   <img src="https://imgur.com/SCUEM9g"/>
 </p>
