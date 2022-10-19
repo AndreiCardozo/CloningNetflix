@@ -36,7 +36,6 @@ npm install
 ```
 
 Em seguida utiliza o comando para rodar a aplicação:
-Rodando a aplicação mobile, primeiro iniciar o servidor e depois o próprio "mobile":
 
 ```bash
 expo start 
