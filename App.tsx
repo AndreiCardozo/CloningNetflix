@@ -1,6 +1,9 @@
 import { View, StatusBar } from 'react-native';
 import { LoadingScreen } from './src/screens/LoadingScreen';
+import { LoginScreen } from './src/screens/LoginScreen';
+import { useState } from 'react';
 
+import { Routes } from './src/routes'
 
 import {
   useFonts,
@@ -10,9 +13,14 @@ import {
   Inter_900Black
 } from '@expo-google-fonts/inter';
 
-import { Routes } from './src/routes'
+
+
 
 export default function App() {
+
+  const [user, setUser] = useState(null);
+
+
   const [fontsLoaded] = useFonts({
     Inter_400Regular,
     Inter_600SemiBold,
@@ -20,9 +28,15 @@ export default function App() {
     Inter_900Black
   });
 
+
+  if (!user) {
+    return <LoginScreen changeStatus={(user) => setUser(user)} />
+  }
+
   if (!fontsLoaded) {
     return <LoadingScreen />;
   }
+
 
   return (
     <View

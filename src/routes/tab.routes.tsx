@@ -12,6 +12,7 @@ import { RisadasRapidas } from '../screens/RisadasRapidas';
 import { Downloads } from '../screens/Downloads';
 import { THEME } from '../theme';
 import { SelectionProfile } from '../screens/SelectionProfile';
+import { LoginScreen } from '../screens/LoginScreen';
 
 export function TabRoutes() {
     return (
