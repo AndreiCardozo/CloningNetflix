@@ -29,9 +29,9 @@ export default function App() {
   });
 
 
-  //if (!user) {
-  // return <LoginScreen changeStatus={(user) => setUser(user)} />
-  //}
+  if (!user) {
+    return <LoginScreen changeStatus={(user) => setUser(user)} />
+  }
 
   if (!fontsLoaded) {
     return <LoadingScreen />;
