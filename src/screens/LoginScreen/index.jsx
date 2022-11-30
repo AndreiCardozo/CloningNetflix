@@ -4,8 +4,6 @@ import { styles } from './styles';
 
 import firebase from '../../services/firebaseConnection';
 
-import { Headerhomepage } from '../../components/Headerhomepage';
-
 import logoNetflix from '../../assets/logonetflix.png';
 
 export function LoginScreen({ changeStatus }) {
@@ -29,7 +27,7 @@ export function LoginScreen({ changeStatus }) {
                 })
 
         } else {
-            const user = firebase.auth().creatUserWithEmailAndPassword(email, password)
+            const user = firebase.auth().createUserWithEmailAndPassword(email, password)
                 .then((user) => {
                     changeStatus(user.user.email)
                 })
